@@ -1,0 +1,253 @@
+@font-face {
+  font-family: 'Sigmar', cursive;
+  src: "static/css/Sigmar-Regular.ttf";
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+}
+ :root{
+   --bg-color: #081b29;
+   --second-bg-color: #112e42;
+   --text-color: #ededed;
+   --main-color: #00abf0;
+ }
+ body{
+  background: var(--bg-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  background-image: url(./LOGO\ RAY.png) ;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  font-family: 'Sigmar', cursive;
+ }
+ .card-text{
+
+  color: var(--text-color);
+ }
+ .card{
+  background: var(--bg-color);
+  border: 3px solid  #1cffad;
+
+
+ }
+#spriteraycontenedor{
+  text-align: center;
+}
+
+.spriteray{
+  display: inline-block;
+  
+  background: url(./sprite.png) no-repeat;
+  width: 28px;
+  height: 55px;
+  position: fixed;
+  animation: move 1s steps(4) infinite;
+}
+@keyframes move{
+  to{
+    background-position: -208px 0;
+
+
+  }
+
+}
+
+/*body{
+    /*background-image: radial-gradient(circle at 50% 34.93%, #ff3f23 0, #ff3526 25%, #ff2929 50%, #ff182c 75%, #ff002f 100%);
+  color: #000;
+  background-color: #0437F2;
+    min-height: 100vh;
+    background-image: url(./LOGO\ RAY.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+/*.container-fluid{
+  background-color: aqua;
+}
+.collapse navbar-collapse{
+  background-color: aqua;
+}*/
+
+#carouselExampleInterval{
+   width: 280px;
+}
+#carouselExampleInterval2{
+   width: 280px;
+}
+#carouselExampleInterval3{
+  width: 280px;
+}
+#titulo1{
+  color: greenyellow;
+  font-weight: bold;
+}
+#titulo2{
+  color: darkblue;
+  position: fixed;
+  font-weight: bold;
+}
+#textoray{
+  color: greenyellow;
+  font-size: 50px;
+  text-align: center;
+}
+#btnfacebook{
+  padding: 0;
+  margin: 0;
+
+}
+.contenedor-botones{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding-left: 70%;
+  padding-right: 0;
+}
+.contenedor-imagenes{
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: auto;
+
+}
+.carousel-inner{
+  border-radius: 10px;
+  border: 3px solid yellowgreen;
+  min-height: 200px;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  width:calc(33.3%-20px) ;
+
+
+}
+.contenedor-cards{
+  padding-top: 5%;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+.modal-content{
+  
+  background-color: #CA2200;
+
+}
+.modal-body{
+  color: #081b29;
+  font-weight: bold;
+}
+.modal-title{
+  color: #081b29;
+  font-weight: bold;
+  font-size: 60px;
+}
+.gift{
+  background: url(./trabajosray/giphy.gif) no-repeat;
+  width: 480px;
+  height: 358px;
+  display: inline-block;
+}
+#giftcontenedor{
+  padding-top: 3%;
+  text-align: center;
+}
+.carousel-caption d-none d-md-block{
+  width: 20px;
+}
+.contenedormensaje{
+  text-align: center;
+  margin: auto;
+  padding: 0;
+}
+#btnwhatsapp{
+  padding: 0;
+  margin: 0;
+
+}
+#btninstagram{
+  padding: 0;
+  margin: 0;
+
+}
+#contenedor1{
+  padding: 0;
+  margin: 0;
+  
+}
+.container-fluid{
+  background-color: #CA2200;
+  background-attachment: fixed;
+  position: relative;
+  padding: 1%;
+}
+#tabla{
+  padding: 0px;
+}
+.textomarcado{
+  border: 3px solid  #1cffad;
+  text-align: center;
+  padding: 0;
+  
+}
+.contenedorbarras{
+  padding-top: 10%;
+  margin: auto;
+  text-align: center;
+  padding-right: 50%;
+  width: 400px;
+}
+/*barraas*/
+#barra1{
+  height: 30px;
+  width: 700px;
+}
+#barra2{
+  height: 30px;
+  width: 700px;
+}
+
+#barra3{
+  height: 30px;
+  width: 700px;
+}
+#barra4{
+  height: 30px;
+  width: 700px;
+}
+
+#barra5{
+  height: 30px;
+  width: 700px;
+}
+#barra6{
+  height: 30px;
+  width: 700px;
+}
+#barra7{
+  height: 30px;
+  width: 700px;
+}
+#barra8{
+  height: 30px;
+  width: 700px;
+}
+.formatotexto{
+ text-align: center center;
+ border-radius: 16px;
+ margin: auto;
+ border: 2px solid darkturquoise ;
+ width: 500px;
+}
